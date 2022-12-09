@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Prints random number and states whether 
+ * main - Prints random number and states whether
  * last digit is greater than 5, equals to 0 or less than 6
  * Return: Always 0 (Success)
  */
