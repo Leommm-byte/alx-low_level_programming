@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - “Fizz-Buzz test”
+ * main - Fizz-Buzz test
  * 3 multiples print Fizz instead of the number
  * 5 multiples print Buzz instead of the number
  * 3 & 5 multiples print FizzBuzz instead of the number
