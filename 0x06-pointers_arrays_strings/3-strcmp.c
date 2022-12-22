@@ -11,17 +11,41 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int dlen1 = 0, dlen2 = 0;
+	int a = 0, b = 0, c = 0, r = 0, lim;
 
-	while (s1[dlen1])
-		dlen1++;
-	while (s2[dlen2])
-		dlen2++;
+	while (s1[a])
+	{
+		a++;
+	}
 
-	if (dlen1 == dlen2)
-		return (0);
-	else if (dlen1 < dlen2)
-		return (-15);
+	while (s2[b])
+	{
+		b++;
+	}
+
+	if (a <= b)
+	{
+		lim = a;
+	}
 	else
-		return (15);
+	{
+		lim = b;
+	}
+
+	while (c <= lim)
+	{
+		if (s1[c] == s2[c])
+		{
+			c++;
+			continue;
+		}
+		else
+		{
+			r = s1[c] - s2[c];
+			break;
+		}
+		c++;
+	}
+
+	return (r);
 }
