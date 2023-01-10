@@ -1,0 +1,1 @@
+Malloc means memory allocation
